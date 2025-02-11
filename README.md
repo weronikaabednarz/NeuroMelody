@@ -40,21 +40,22 @@ The project was implemented in Python using a long short-term memory network, im
 **Dataset:**
 
 ![1](./images/used_dataset.jpg)
-![2](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/melodies_used.jpg)
+
+![2](./images/melodies_used.jpg)
 
 **Appearance of the interface for generating new melodies:**
 
-![3](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/interface.jpg)
+![3](./images/interface.jpg)
 
 The interface created allows the user to easily adjust the parameters of the melody, such as the duration of the song (in seconds) using a slider and the tempo selected from a drop-down list (slow, moderate, fast). This solution allows new melodies to be dynamically generated without having to look into the code.
 
 **Model configurations included:**
 
-![4](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/melody_evaluation_metrics.jpg)
+![4](./images/melody_evaluation_metrics.jpg)
 
 **Results for selected model evaluation metrics:**
 
-![5](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/model_evaluation_metrics.jpg)
+![5](./images/model_evaluation_metrics.jpg)
 
 Analysis of the training times showed a significant difference between the shortest and longest times. The shortest time was 16 minutes (Model 30), while the longest time reached 358 minutes (Model 26). This difference highlights the variation in performance of the models used in the experiments. Training time increases approximately linearly with the number of epochs, which is expected. Models trained for 100 epochs (e.g. Model 14, Model 15) have significantly longer training times compared to those trained for 10 or 50 epochs.
 
@@ -68,6 +69,6 @@ From the results obtained, it can be concluded that **model number 16** achieves
 
 **Results for selected metrics for evaluating the generated melodies:**
 
-![6](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/melody_evaluation_metrics.jpg)
+![6](./images/melody_evaluation_metrics.jpg)
 
 Melodies for which the value of the Pitch Range metric reaches high values (e.g. 50 for model 16) are characterised by a wide range of notes in the generated sequence. In contrast, low scores of the metric (e.g. 1 for model 32) are indicative of a narrow range of notes used to create the song, which can result in monotony. High values of the Tone Diversity metric (e.g. 0.26 for model 37) indicate a greater variety of sounds present. A low Repetition Ratio metric (e.g. 0.0204 for model 3) characterises sequences with few repeated fragments. Low values of the Melodic Coherence metric (e.g. 0.0021 for model 29) suggest irregularity in the melodic structure. On the other hand, high scores obtained for Harmonic Consistency (e.g. 0.96 for model 5) are indicative of the harmonic coherence of a piece in a particular key. A high Melodic Movement Score (e.g. 0.9556 for model 8) indicates fluidity and natural movement of sounds in the melody.
