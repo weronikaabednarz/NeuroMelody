@@ -39,7 +39,7 @@ The project was implemented in Python using a long short-term memory network, im
    
 **Dataset:**
 
-![1](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/used_dataset.jpg)
+![1](./images/used_dataset.jpg)
 ![2](https://github.com/weronikaabednarz/Engineering-Thesis/blob/main/images/melodies_used.jpg)
 
 **Appearance of the interface for generating new melodies:**
