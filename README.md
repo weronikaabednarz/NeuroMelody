@@ -20,6 +20,7 @@ I chose pieces composed by Frederic Chopin to train the model.
 
 ## Technologies
 The project was implemented in **Python** using a long short-term memory network, implemented in the **Google Colab** environment, with **Google Drive** connected to store the dataset and generated sequences. 
+
 **Technologies** used in the project:
 - **lilypond** - computer music composition software to create professional looking musical scores.
 
