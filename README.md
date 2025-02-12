@@ -56,6 +56,7 @@ The project was implemented in **Python** using a long short-term memory network
 The interface created allows the user to easily adjust the parameters of the melody, such as:
 - **duration of the song** (in seconds) using a slider,
 - **tempo** selected from a drop-down list (slow, moderate, fast).
+
 This solution allows new melodies to be dynamically generated without having to look into the code.
 
 **Model configurations included:**
