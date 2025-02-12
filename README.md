@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi includes work
 I chose pieces composed by Frederic Chopin to train the model.
 
 ## Technologies
-The project was implemented in Python using a long short-term memory network, implemented in the Google Colab environment, with Google Drive connected to store the dataset and generated sequences. **Technologies** used in the project:
+The project was implemented in **Python** using a long short-term memory network, implemented in the **Google Colab** environment, with **Google Drive** connected to store the dataset and generated sequences. **Technologies** used in the project:
 - os - operations on files and directories,
 - zipfile - handling of .zip files,
 - glob - searching for files according to patterns,
@@ -31,12 +31,13 @@ The project was implemented in Python using a long short-term memory network, im
 - matplotlib.pyplot - creating graphs,
 - seaborn - data visualisation, supporting matplotlib,
 - IPython.display - displaying images and sounds,
-- music21 - working with music structures,
-- tensorflow.keras - building machine learning models, including Keras, which offers tools such as neural network layers (e.g. LSTM, Dense, Dropout) for creating sequential models, the Adamax optimiser for efficient training, and the to_categorical function for coding categories, all within the TensorFlow framework,
-- sklearn - splitting data into training and test sets and evaluating model performance using metrics such as cosine similarity,
+- **music21** - working with music structures,
+- **tensorflow.keras** - building machine learning models, including Keras, which offers tools such as neural network layers (e.g. LSTM, Dense, Dropout) for creating sequential models, the Adamax optimiser for efficient training, and the to_categorical function for coding categories, all within the TensorFlow framework,
+- **sklearn** - splitting data into training and test sets and evaluating model performance using metrics such as cosine similarity,
 - google.colab - handling Google Drive,
 - warnings - handling warnings.
-   
+
+## Images
 **Dataset:**
 
 ![1](./images/used_dataset.jpg)
@@ -47,7 +48,10 @@ The project was implemented in Python using a long short-term memory network, im
 
 ![3](./images/interface.jpg)
 
-The interface created allows the user to easily adjust the parameters of the melody, such as the duration of the song (in seconds) using a slider and the tempo selected from a drop-down list (slow, moderate, fast). This solution allows new melodies to be dynamically generated without having to look into the code.
+The interface created allows the user to easily adjust the parameters of the melody, such as:
+- **duration of the song** (in seconds) using a slider,
+- **tempo** selected from a drop-down list (slow, moderate, fast).
+This solution allows new melodies to be dynamically generated without having to look into the code.
 
 **Model configurations included:**
 
