@@ -1,6 +1,6 @@
 # Analysis of the possibility of using recurrent neural networks to generate new melodies based on the MIDI files
 
-**Summary**
+## About project
 
 The goal of the thesis project was to analyze the possibilities of using recurrent neural networks to generate melodies, 
 taking into account various quality assessment metrics. The research was carried out on a MIDI-format music dataset, 
@@ -14,7 +14,7 @@ However, some parameters need further optimisation to reduce repeatability.
 
 The results may find applications in music education and automatic music composition. Further development of the project may include extending the dataset and functionality of the model, as well as applying modern techniques such as GAN or GPT models to improve the quality of the generated melodies and eliminate overfitting.
 
-
+## Dataset
 The **dataset** used is from the kaggle platform:
 https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi includes works by 19 different composers performed on the piano. 
 I chose pieces composed by Frederic Chopin to train the model.
